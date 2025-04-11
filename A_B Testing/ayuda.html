@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayuda - Portal Universitario</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-auto">
+          <div class="user">
+      <div class="gear-box" title="Configuración">⚙️</div>
+      <img src="./images/profile.png" alt="Usuario" class="avatar">
+    </div>
+      </div>
+      </div>
+          </div>
+  </header>
+
+  <main class="main">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-toggle d-lg-none">
+        <button class="navbar-toggler" type="button" id="sidebarToggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            </div>
+      <div class="sidebar-content">
+        <div class="text-logo">
+          <span class="uni">Universitaria</span>
+          <span class="col">de Colombia</span>
+        </div>
+          
+        <div class="logo">
+          <div class="logo-circle">U</div>
+                </div>
+
+        <nav class="menu" aria-label="Menú lateral">
+          <a href="cartera.html"><strong>Cartera</strong><br><span>Revisa un histórico de tus pagos</span></a>
+          <a href="pse.html"><strong>PSE</strong><br><span>Realice un pago pendiente</span></a>
+          <a href="carne.html"><strong>Tarjeta de identificación</strong><br><span>Consulta tu carné</span></a>
+          <a href="notas.html"><strong>Notas</strong><br><span>Histórico de calificaciones</span></a>
+          <a href="ayuda.html" class="active"><strong>Ayuda</strong><br><span>Centro de ayuda</span></a>
+        </nav>
+                </div>
+    </aside>
+
+    <section class="content">
+      <div class="container-fluid p-0">
+        <section class="career-box" aria-label="Carrera del usuario">
+          <div class="row align-items-center">
+            <div class="col">
+              <p>Su carrera es:</p>
+              <h2>Ingeniería de Software</h2>
+                </div>
+            <div class="col-auto">
+              <a href="index.html" class="btn btn-primary btn-sm">Volver al inicio</a>
+                </div>
+          </div>
+          </section>
+          
+        <section class="white-box" aria-label="Centro de ayuda">
+          <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <div class="left">
+                <h1><span class="highlight">Centro</span> de Ayuda</h1>
+                <p class="lead">Encuentra respuestas a preguntas frecuentes y solicita asistencia si tienes problemas con el portal estudiantil.</p>
+
+                <div class="card mt-4 p-3">
+                  <h5 class="card-title">Contacto directo</h5>
+                  <p class="mb-1"><strong>Teléfono:</strong> (601) 123-4567</p>
+                  <p class="mb-1"><strong>Email:</strong> soporte@universitariacolombia.edu.co</p>
+                  <p class="mb-0"><strong>Horario de atención:</strong><br>Lunes a viernes de 8:00 AM a 6:00 PM</p>
+              </div>
+              </div>
+              </div>
+            <div class="col-lg-8">
+              <div class="right">
+                <section class="section" aria-label="Buscar ayuda">
+                  <h3>¿Cómo podemos ayudarte?</h3>
+                  <div class="input-group mb-4">
+                    <input type="text" class="form-control" placeholder="Escribe tu pregunta aquí...">
+                    <button class="btn btn-primary">Buscar</button>
+                  </div>
+          </section>
+
+                <section class="section" aria-label="Preguntas frecuentes">
+                  <h3>Preguntas frecuentes</h3>
+                  <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                          ¿Cómo solicito un certificado de estudios?
+                        </button>
+                      </h2>
+                      <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                          Para solicitar un certificado de estudios, dirígete a la sección "Notas" y haz clic en el botón "Descargar certificado de notas". Si necesitas un certificado específico, debes solicitarlo directamente en la secretaría académica.
+        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                          ¿Por qué no puedo ver mis notas del semestre actual?
+                        </button>
+                      </h2>
+                      <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                          Las notas se publican según el calendario académico. Si has completado evaluaciones pero aún no ves tus notas, es posible que el docente no las haya cargado al sistema o que no haya finalizado el periodo de calificación.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                          ¿Cómo puedo realizar un pago de matrícula?
+                        </button>
+                      </h2>
+                      <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                          Para realizar el pago de matrícula, ve a la sección "PSE" donde podrás seleccionar el concepto "Matrícula semestre" y seguir los pasos para completar el pago a través de la plataforma de tu banco.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                          ¿Qué hago si perdí mi carné estudiantil?
+                        </button>
+                      </h2>
+                      <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                          Si has perdido tu carné físico, puedes solicitar una reposición en la sección "Tarjeta de identificación". Mientras tanto, puedes utilizar tu carné digital disponible en la misma sección.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                          ¿Cómo puedo cambiar mi contraseña de acceso al portal?
+                        </button>
+                      </h2>
+                      <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                          Para cambiar tu contraseña, haz clic en el icono de configuración (⚙️) en la esquina superior derecha y selecciona la opción "Cambiar contraseña". Deberás ingresar tu contraseña actual y la nueva contraseña dos veces.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      </section>
+
+                <section class="section mt-4" aria-label="Soporte técnico">
+                  <h3>Solicitud de soporte técnico</h3>
+                  <div class="card">
+                    <div class="card-body">
+                      <form class="support-form">
+                        <div class="mb-3">
+                          <label for="issue-type" class="form-label">Tipo de problema:</label>
+                          <select id="issue-type" name="issue-type" class="form-select">
+                            <option value="">Selecciona una opción</option>
+                            <option value="access">Problemas de acceso</option>
+                            <option value="payment">Problemas con pagos</option>
+                            <option value="grades">Consulta sobre notas</option>
+                            <option value="other">Otro</option>
+                          </select>
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="issue-description" class="form-label">Descripción:</label>
+                          <textarea id="issue-description" name="issue-description" rows="4" class="form-control" placeholder="Describe tu problema en detalle..."></textarea>
+                        </div>
+
+                        <div class="d-flex flex-wrap gap-2">
+                          <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+                          <button type="reset" class="btn btn-outline-secondary">Cancelar</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+    </section>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const sidebarToggle = document.getElementById('sidebarToggle');
+      const sidebar = document.getElementById('sidebar');
+
+      sidebarToggle.addEventListener('click', function() {
+        sidebar.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
